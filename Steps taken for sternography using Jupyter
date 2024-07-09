@@ -1,1 +1,15 @@
 
+Install Required Libraries:Install Pillow and cryptography libraries.
+Command: !pip install Pillow cryptography
+Import Libraries:Import Image from Pillow and necessary modules from cryptography.
+Define Helper Functions:Create functions for generating an encryption key, encrypting messages, and decrypting messages.
+Load and Encrypt Text:Load the image using Image.open().Generate an encryption key from a password.
+Encrypt the text message.
+Convert Encrypted Text to Binary:Convert the encrypted message to binary format.
+Embed Binary Data into Image:Embed the binary data into the image pixels by modifying the least significant bits (LSBs).
+Save Encoded Image:Save the modified image with the embedded text.
+Load Encoded Image:Load the encoded image for extraction.
+Extract Binary Data from Image:Extract the binary data from the image's LSBs.
+Convert Binary Data to Encrypted Text:Convert the extracted binary data back to bytes.
+Decrypt the Text:Decrypt the extracted encrypted text using the same password.
+Display the Extracted Text:Print or display the decrypted message.
