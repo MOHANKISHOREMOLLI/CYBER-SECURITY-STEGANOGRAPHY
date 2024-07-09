@@ -48,8 +48,8 @@ if ch == 1:
                 if m == 0:
                     n = (n + 1) % i
             k1 = (k1 + 1) % len(key)
-        print("The Secret Message is:", decrypt)
+        print("The Hidden Secret Message is:", decrypt)
     else:
-        print("Check your key!!!!")
+        print("Invalid Key")
 else:
-    print("Don't Want To Unhide The Text, Ok Then Bye!!!!")
+    print("if you dont want then go back")
